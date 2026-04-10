@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+      background: linear-gradient(45deg, #6366f1, #06b6d4);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    video {
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    footer {
+      padding: 20px;
+      background: #020617;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎬 Multimedia Website</h1>
+  <p>Website sederhana tapi keren 😎</p>
+</header>
+
+<section>
+  <h2>📷 Gallery</h2>
+  <div class="gallery">
+    <img src="https://picsum.photos/300?1">
+    <img src="https://picsum.photos/300?2">
+    <img src="https://picsum.photos/300?3">
+  </div>
+</section>
+
+<section>
+  <h2>🎥 Video</h2>
+  <video controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  </video>
+</section>
+
+<section>
+  <h2>✨ Animasi</h2>
+  <div style="width:100px;height:100px;background:#6366f1;margin:auto;border-radius:50%;animation:spin 2s linear infinite;"></div>
+</section>
+
+<footer>
+  <p>© 2026 Multimedia Website</p>
+</footer>
+
+<style>
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+</body>
+</html>
